@@ -1,0 +1,51 @@
+.header {
+    /* background-image: url("/images/header.png"); */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(32, 78, 175, 1) 26%,
+        rgba(40, 97, 208, 1) 35%,
+        rgba(40, 97, 208, 1) 35%,
+        rgba(45, 110, 232, 1) 49%,
+        rgba(67, 98, 217, 1) 65%,
+        rgba(220, 0, 255, 1) 100%
+    );
+    height: 100vh;
+    padding: 20px;
+}
+
+.header div.container h1 {
+    padding-top: 50%;
+    font-size: 40px;
+}
+
+.header img {
+    width: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+@media only screen and (max-width: 800px) {
+    .header {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(
+            180deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(32, 78, 175, 1) 26%,
+            rgba(40, 97, 208, 1) 35%,
+            rgba(40, 97, 208, 1) 35%,
+            rgba(45, 110, 232, 1) 49%,
+            rgba(67, 98, 217, 1) 65%,
+            rgba(255, 0, 247, 1) 100%
+        );
+    }
+    .header img {
+        width: 300px;
+    }
+    .header div.container h1 {
+        padding-top: 25%;
+        font-size: 25px;
+    }
+}

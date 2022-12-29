@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.center {
+    text-align: center !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 100;
+}
+
+h5,
+p {
+    font-size: 20px;
+}
+
+input:focus {
+    color: #2d6ee8;
+}
+
+button {
+    cursor: pointer;
+}
+
+.logo {
+    color: #2d6ee8 !important;
+}
+
+.white {
+    color: #fff !important;
+}
+
+.blue {
+    color: #2d6ee8 !important;
+}
+
+.background-blue {
+    background-color: #2d6ee8;
+}
+
+/* SECTIONS */
+.section-two {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.section-two .card {
+    height: 135px;
+}
+
+.section-two .card.one {
+    background-color: #d038e8;
+}
+
+.section-two .card.two {
+    background-color: #2d6ee8;
+}
+
+.section-two .card.three {
+    background-color: #31caff;
+}
+
+.section-two .card.four {
+    background-color: #822de8;
+}
+
+.section-two .card h5 {
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .section-two {
+        height: auto;
+    }
+    .section-two .card h5 {
+        font-size: 20px;
+    }
+
+    .section-two .card {
+        height: auto;
+    }
+}
